@@ -28,8 +28,8 @@ Example:
 |   | Desired colour (channels) | Formula                        |
 |---|---------------------------|--------------------------------|
 | R | 160                       | I(i, j)[0] = (avg * 160) / 255 |
-| G | 104                       | I(i, j)[1] = (avg * 160) / 255 |
-| B | 166                       | I(i, j)[2] = (avg * 160) / 255 |
+| G | 104                       | I(i, j)[1] = (avg * 104) / 255 |
+| B | 166                       | I(i, j)[2] = (avg * 166) / 255 |
 
 See the result on the [browser][colour-gp].
 
