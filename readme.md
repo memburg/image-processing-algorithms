@@ -20,6 +20,20 @@ From [Wikipedia][grayscale-wiki]: Grayscale images, a kind of black-and-white or
 
 See the result on the [browser][grayscale-gp].
 
+### Colour
+This algorithms iterates through the pixels, calculates the average of the current pixel, multiplies average by the desired colour channel (R, G, B), finally divide the result by 255. I don't know if there's an specific name for this algorithm, if you know it, please share.
+
+Example:
+
+|   | Desired colour (channels) | Formula                        |
+|---|---------------------------|--------------------------------|
+| R | 160                       | I(i, j)[0] = (avg * 160) / 255 |
+| G | 104                       | I(i, j)[1] = (avg * 160) / 255 |
+| B | 166                       | I(i, j)[2] = (avg * 160) / 255 |
+
+See the result on the [browser][colour-gp].
+
+
 ## License
 [MIT][license-link]
 
@@ -33,5 +47,7 @@ See the result on the [browser][grayscale-gp].
 
 [grayscale-wiki]: https://en.wikipedia.org/wiki/Negative_(photography)#Negative_image
 [grayscale-gp]: https://memburg.dev/image-processing-algorithms/src/views/grayscale.html
+
+[colour-gp]: https://memburg.dev/image-processing-algorithms/src/views/colour.html
 
 [license-link]: https://github.com/memburg/image-processing-algorithms/blob/main/LICENSE
