@@ -40,14 +40,14 @@ See the result on the [browser][colour-gp].
 [comment]: <> (Links for info and images)
 
 [threshold-wiki]: https://en.wikipedia.org/wiki/Thresholding_(image_processing)
-[threshold-gp]: https://memburg.dev/image-processing-algorithms/src/views/threshold.html
+[threshold-gp]: https://memburg.github.io/image-processing-algorithms/src/views/threshold.html
 
 [invert-wiki]: https://en.wikipedia.org/wiki/Negative_(photography)#Negative_image
-[invert-gp]: https://memburg.dev/image-processing-algorithms/src/views/invert.html
+[invert-gp]: https://memburg.github.io/image-processing-algorithms/src/views/invert.html
 
 [grayscale-wiki]: https://en.wikipedia.org/wiki/Negative_(photography)#Negative_image
-[grayscale-gp]: https://memburg.dev/image-processing-algorithms/src/views/grayscale.html
+[grayscale-gp]: https://memburg.github.io/image-processing-algorithms/src/views/grayscale.html
 
-[colour-gp]: https://memburg.dev/image-processing-algorithms/src/views/colour.html
+[colour-gp]: https://memburg.github.io/image-processing-algorithms/src/views/colour.html
 
 [license-link]: https://github.com/memburg/image-processing-algorithms/blob/main/LICENSE
